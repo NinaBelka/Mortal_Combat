@@ -3,5 +3,48 @@
 }
 
 body {
-  
+  background: #010202;
+  font-family: 'Source Sans Pro',
+  sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 56px 0;
+}
+
+.logo {
+  display: block;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-image: url("../img/user.jpg");
+  background-size: cover;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-right: 15px;
 }
