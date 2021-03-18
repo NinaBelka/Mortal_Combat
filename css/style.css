@@ -51,8 +51,7 @@ a {
 }
 
 .app {
-  background: linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%),
-    url('../img/cover-image.jpg') no-repeat center right;
+  background: linear-gradient(90deg, #010202 0%, #010202 43%, rgba(1, 2, 2, 0.2) 90.9%);
   min-height: 100vh;
   color: #FFFFFF;
 }
@@ -114,17 +113,15 @@ a {
   vertical-align: text-bottom;
 }
 
-@media(max-width: 1200px) {
-  .app {
-    background-size: 50%
-  }
-}
-
 @media(max-width: 768px) {
   .app {
     height: auto;
     padding-bottom: 400px;
-    background-position: bottom center;
+    background: url('../img/cover-image.jpg') no-repeat bottom center / 300px;
+  }
+
+  video {
+    display: none;
   }
 
   .film {
