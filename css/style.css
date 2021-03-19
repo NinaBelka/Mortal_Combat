@@ -113,6 +113,22 @@ a {
   vertical-align: text-bottom;
 }
 
+.modal {
+  display: none;
+  width: 300px;
+  background-color: rgb(66, 65, 65);
+  text-align: center;
+}
+
+.modal-input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.modal .button {
+  margin-right: 0;
+}
+
 @media(max-width: 768px) {
   .app {
     height: auto;
